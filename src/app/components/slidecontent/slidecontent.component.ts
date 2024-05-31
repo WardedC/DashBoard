@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { LinealchartComponent } from "../linealchart/linealchart.component";
+import { CircularchartComponent } from "../circularchart/circularchart.component";
 
 @Component({
     selector: 'component-slidecontent',
@@ -10,7 +11,8 @@ import { LinealchartComponent } from "../linealchart/linealchart.component";
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [
         CommonModule,
-        LinealchartComponent
+        LinealchartComponent,
+        CircularchartComponent
     ]
 })
 export class SlidecontentComponent { }

@@ -2,17 +2,6 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, ElementRef, OnInit, ViewChild, viewChild } from '@angular/core';
 import { ApexOptions } from 'apexcharts';
 
-export type ChartOptions = {
-   series: ApexAxisChartSeries;
-   chart: ApexChart;
-   dataLabels: ApexDataLabels;
-   markers: ApexMarkers;
-   title: ApexTitleSubtitle;
-   fill: ApexFill;
-   yaxis: ApexYAxis;
-   xaxis: ApexXAxis;
-   tooltip: ApexTooltip;
-};
 
 @Component({
     selector: 'component-linealchart',
