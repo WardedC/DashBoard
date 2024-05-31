@@ -17,4 +17,5 @@ import { SimpleresumecardComponent } from "../simpleresumecard/simpleresumecard.
         SimpleresumecardComponent
     ]
 })
-export class SlidecontentComponent { }
+export class SlidecontentComponent {
+}
