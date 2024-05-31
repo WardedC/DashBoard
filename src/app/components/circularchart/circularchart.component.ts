@@ -44,7 +44,7 @@ export class CircularchartComponent implements OnInit {
       series: [35.1, 23.5, 2.4, 5.4],
       chart: {
         type: 'donut',
-        height: 150,
+        height: 300,
         width: '200'
       },
       colors: ['#003049', '#c1121f', '#fdf0d5', '#e63946'],
@@ -52,7 +52,7 @@ export class CircularchartComponent implements OnInit {
         pie: {
           donut: {
             labels: {
-              show: false,
+              show: true,
               name: {
                 show: true,
                 fontFamily: 'Inter, sans-serif',
@@ -60,7 +60,7 @@ export class CircularchartComponent implements OnInit {
               },
               total: {
                 showAlways: true,
-                show: false,
+                show: true,
                 label: 'Unique visitors',
                 fontFamily: 'Inter, sans-serif',
                 color: '#2ec4b6',
@@ -80,7 +80,7 @@ export class CircularchartComponent implements OnInit {
                 }
               }
             },
-            size: '70%'
+            size: '80%'
           }
         }
       },
@@ -98,7 +98,7 @@ export class CircularchartComponent implements OnInit {
         enabled: false
       },
       legend: {
-        show: false,
+        show: true,
         position: 'bottom',
         fontFamily: 'Inter, sans-serif'
       }

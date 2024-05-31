@@ -1,46 +1,25 @@
 <div class="p-4 sm:ml-64">
   <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg mt-14">
-     <div class="grid md:grid-cols-4 gap-4 mb-4">
-      <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md">
-          <h5 class="mb-2 text-lg font-semibold tracking-tight text-gray-900">Trial: Win Rate</h5>
-          <div class="flex flex-col items-center">
-              <span class="text-4xl font-bold text-gray-900">9.86%</span>
-              <span class="flex items-center mt-2 text-lg font-medium text-green-600">
-                  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13V1m0 0L1 5m4-4 4 4"/>
-                  </svg>
-                  25%
-              </span>
-              <span class="mt-1 text-sm text-gray-500">vs previous 30 days</span>
-          </div>
-      </div>
-      <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md">
-          <h5 class="mb-2 text-lg font-semibold tracking-tight text-gray-900">Trial: Win Rate</h5>
-          <div class="flex flex-col items-center">
-              <span class="text-4xl font-bold text-gray-900">9.86%</span>
-              <span class="flex items-center mt-2 text-lg font-medium text-green-600">
-                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13V1m0 0L1 5m4-4 4 4"/>
-                  </svg>
-                  25%
-              </span>
-              <span class="mt-1 text-sm text-gray-500">vs previous 30 days</span>
-          </div>
-      </div>
-      <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md">
-          <h5 class="mb-2 text-lg font-semibold tracking-tight text-gray-900">Trial: Win Rate</h5>
-          <div class="flex flex-col items-center">
-              <span class="text-4xl font-bold text-gray-900">9.86%</span>
-              <span class="flex items-center mt-2 text-lg font-medium text-green-600">
-                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13V1m0 0L1 5m4-4 4 4"/>
-                  </svg>
-                  25%
-              </span>
-              <span class="mt-1 text-sm text-gray-500">vs previous 30 days</span>
-          </div>
-      </div>
+     <div class="grid md:grid-cols-4 gap-5 mb-4">
+
+      <component-simpleresumecard class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md border-t-5 "></component-simpleresumecard>
+      <component-simpleresumecard class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md"></component-simpleresumecard>
+      <component-simpleresumecard class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md"></component-simpleresumecard>
       <component-circularchart></component-circularchart>
+
+      <!--<div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md">
+          <h5 class="mb-2 text-lg font-semibold tracking-tight text-gray-900">Trial: Win Rate</h5>
+          <div class="flex flex-col items-center">
+              <span class="text-4xl font-bold text-gray-900">9.86%</span>
+              <span class="flex items-center mt-2 text-lg font-medium text-green-600">
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13V1m0 0L1 5m4-4 4 4"/>
+                  </svg>
+                  25%
+              </span>
+              <span class="mt-1 text-sm text-gray-500">vs previous 30 days</span>
+          </div>
+      </div> -->
      </div>
      <component-linealchart></component-linealchart>
      <!-- <div class="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
