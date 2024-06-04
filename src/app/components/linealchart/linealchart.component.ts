@@ -52,7 +52,7 @@ export class LinealchartComponent implements OnInit {
         enabled: false,
       },
       stroke: {
-        width: 6,
+        width: 4,
         colors: ["#FF2401"] // Cambia a rojo
       },
       grid: {
@@ -67,7 +67,7 @@ export class LinealchartComponent implements OnInit {
       series: [
         {
           name: "New users",
-          data: [6500, 6418, 6456, 6526, 6356, 6456, 6600, 6500, 6700],
+          data: [6500, 6418, 6456, 6526, 6356, 6456, 6600, 6500, 6700, 6500, 6418, 6456, 6526, 6356, 6456, 6600, 6500, 6700],
           color: "#FF2401", // Cambia a rojo
         },
       ],

@@ -3,6 +3,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { LinealchartComponent } from "../linealchart/linealchart.component";
 import { CircularchartComponent } from "../circularchart/circularchart.component";
 import { SimpleresumecardComponent } from "../simpleresumecard/simpleresumecard.component";
+import { BarchartComponent } from "../barchart/barchart.component";
 
 @Component({
     selector: 'component-slidecontent',
@@ -14,7 +15,8 @@ import { SimpleresumecardComponent } from "../simpleresumecard/simpleresumecard.
         CommonModule,
         LinealchartComponent,
         CircularchartComponent,
-        SimpleresumecardComponent
+        SimpleresumecardComponent,
+        BarchartComponent
     ]
 })
 export class SlidecontentComponent {
