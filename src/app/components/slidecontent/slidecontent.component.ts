@@ -4,6 +4,7 @@ import { LinealchartComponent } from "../linealchart/linealchart.component";
 import { CircularchartComponent } from "../circularchart/circularchart.component";
 import { SimpleresumecardComponent } from "../simpleresumecard/simpleresumecard.component";
 import { BarchartComponent } from "../barchart/barchart.component";
+import { RadarchartComponent } from "../radarchart/radarchart.component";
 
 @Component({
     selector: 'component-slidecontent',
@@ -16,7 +17,8 @@ import { BarchartComponent } from "../barchart/barchart.component";
         LinealchartComponent,
         CircularchartComponent,
         SimpleresumecardComponent,
-        BarchartComponent
+        BarchartComponent,
+        RadarchartComponent
     ]
 })
 export class SlidecontentComponent {
