@@ -36,16 +36,20 @@ export class BarchartComponent {
       series: [{
         data: [{
           x: 'category A',
-          y: 10
+          y: 10,
+          fillColor: '#003049'
         }, {
           x: 'category B',
-          y: 18
+          y: 18,
+          fillColor: '#d62828'
         }, {
           x: 'category C',
-          y: 13
+          y: 13,
+          fillColor: '#780000'
         },{
           x: 'category D',
-          y: 6
+          y: 6,
+          fillColor: '#fcbf49'
         },]
       }]
     }
