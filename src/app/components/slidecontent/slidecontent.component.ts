@@ -6,6 +6,7 @@ import { SimpleresumecardComponent } from "../simpleresumecard/simpleresumecard.
 import { BarchartComponent } from "../barchart/barchart.component";
 import { RadarchartComponent } from "../radarchart/radarchart.component";
 import { FancylistComponent } from "../fancylist/fancylist.component";
+import { TeampresentationComponent } from '../teampresentation/teampresentation.component';
 
 @Component({
     selector: 'component-slidecontent',
@@ -20,7 +21,8 @@ import { FancylistComponent } from "../fancylist/fancylist.component";
         SimpleresumecardComponent,
         BarchartComponent,
         RadarchartComponent,
-        FancylistComponent
+        FancylistComponent,
+        TeampresentationComponent
     ]
 })
 export class SlidecontentComponent {
