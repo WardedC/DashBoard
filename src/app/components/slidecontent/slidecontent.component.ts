@@ -7,6 +7,9 @@ import { BarchartComponent } from "../barchart/barchart.component";
 import { RadarchartComponent } from "../radarchart/radarchart.component";
 import { FancylistComponent } from "../fancylist/fancylist.component";
 import { TeampresentationComponent } from '../teampresentation/teampresentation.component';
+import { DashboardPageComponent } from "../../pages/dashboardPage/dashboardPage.component";
+import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
 
 @Component({
     selector: 'component-slidecontent',
@@ -15,15 +18,17 @@ import { TeampresentationComponent } from '../teampresentation/teampresentation.
     styleUrl: './slidecontent.component.css',
     changeDetection: ChangeDetectionStrategy.OnPush,
     imports: [
-        CommonModule,
-        LinealchartComponent,
-        CircularchartComponent,
-        SimpleresumecardComponent,
-        BarchartComponent,
-        RadarchartComponent,
-        FancylistComponent,
-        TeampresentationComponent
-    ]
+    RouterModule,
+    CommonModule,
+    LinealchartComponent,
+    CircularchartComponent,
+    SimpleresumecardComponent,
+    BarchartComponent,
+    RadarchartComponent,
+    FancylistComponent,
+    TeampresentationComponent,
+    DashboardPageComponent
+]
 })
 export class SlidecontentComponent {
 }
