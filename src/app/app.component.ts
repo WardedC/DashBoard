@@ -13,7 +13,7 @@ import { SlidecontentComponent } from "./components/slidecontent/slidecontent.co
     imports: [RouterOutlet, LoginComponent, SlidebarComponent, SlidecontentComponent]
 })
 export class AppComponent implements OnInit {
-  title = 'DashBoard';
+  title = 'DashBoardTemplateProyect';
 
   ngOnInit(): void {
     initFlowbite();
