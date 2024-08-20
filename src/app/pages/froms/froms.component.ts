@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { initFlowbite } from 'flowbite'
 
 @Component({
   selector: 'app-froms',
@@ -11,4 +12,9 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   styleUrl: './froms.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class FromsComponent { }
+export class FromsComponent {
+
+  ngOnInit() {
+    initFlowbite()
+  }
+}
