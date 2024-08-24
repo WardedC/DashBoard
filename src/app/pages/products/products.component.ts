@@ -97,7 +97,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         </div>
         <div class="pt-6">
           <div class="mb-4 flex items-center justify-between gap-4">
-            <span class="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> Up to 35% off </span>
+            <span class="me-2 rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> Up to 35% off </span>
 
             <div class="flex items-center justify-end gap-1">
               <button type="button" data-tooltip-target="tooltip-quick-look" class="rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
@@ -112,7 +112,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 <div class="tooltip-arrow" data-popper-arrow=""></div>
               </div>
 
-              <button type="button" data-tooltip-target="tooltip-add-to-favorites" class="rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+              <button type="button" data-tooltip-target="tooltip-add-to-favorites" class="rounded-lg p-2 text-red-500 hover:bg-red-100 hover:text-red-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
                 <span class="sr-only"> Add to Favorites </span>
                 <svg class="h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6C6.5 1 1 8 5.8 13l6.2 7 6.2-7C23 8 17.5 1 12 6Z" />
@@ -173,7 +173,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <div class="mt-4 flex items-center justify-between gap-4">
             <p class="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">$1,699</p>
 
-            <button type="button" class="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+            <button type="button" class="inline-flex items-center rounded-lg bg-red-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-red-800 focus:outline-none focus:ring-4  focus:ring-red-300 dark:bg-red-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
               </svg>
@@ -192,7 +192,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
         <div class="pt-6">
           <div class="mb-4 flex items-center justify-between gap-4">
-            <span class="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> Up to 15% off </span>
+            <span class="me-2 rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> Up to 15% off </span>
 
             <div class="flex items-center justify-end gap-1">
               <button type="button" data-tooltip-target="tooltip-quick-look-2" class="rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
@@ -207,7 +207,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 <div class="tooltip-arrow" data-popper-arrow=""></div>
               </div>
 
-              <button type="button" data-tooltip-target="tooltip-add-to-favorites-2" class="rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+              <button type="button" data-tooltip-target="tooltip-add-to-favorites" class="rounded-lg p-2 text-red-500 hover:bg-red-100 hover:text-red-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
                 <span class="sr-only"> Add to Favorites </span>
                 <svg class="h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6C6.5 1 1 8 5.8 13l6.2 7 6.2-7C23 8 17.5 1 12 6Z" />
@@ -274,7 +274,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <div class="mt-4 flex items-center justify-between gap-4">
             <p class="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">$1,199</p>
 
-            <button type="button" class="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+            <button type="button" class="inline-flex items-center rounded-lg bg-red-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-red-800 focus:outline-none focus:ring-4  focus:ring-red-300 dark:bg-red-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
               </svg>
@@ -293,7 +293,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
         <div class="pt-6">
           <div class="mb-4 flex items-center justify-between gap-4">
-            <span class="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> Up to 35% off </span>
+            <span class="me-2 rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> Up to 35% off </span>
 
             <div class="flex items-center justify-end gap-1">
               <button type="button" data-tooltip-target="tooltip-quick-look-3" class="rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
@@ -308,7 +308,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 <div class="tooltip-arrow" data-popper-arrow=""></div>
               </div>
 
-              <button type="button" data-tooltip-target="tooltip-add-to-favorites-3" class="rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+              <button type="button" data-tooltip-target="tooltip-add-to-favorites" class="rounded-lg p-2 text-red-500 hover:bg-red-100 hover:text-red-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
                 <span class="sr-only"> Add to Favorites </span>
                 <svg class="h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6C6.5 1 1 8 5.8 13l6.2 7 6.2-7C23 8 17.5 1 12 6Z" />
@@ -369,7 +369,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <div class="mt-4 flex items-center justify-between gap-4">
             <p class="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">$799</p>
 
-            <button type="button" class="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+            <button type="button" class="inline-flex items-center rounded-lg bg-red-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-red-800 focus:outline-none focus:ring-4  focus:ring-red-300 dark:bg-red-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
               </svg>
@@ -388,7 +388,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
         <div class="pt-6">
           <div class="mb-4 flex items-center justify-between gap-4">
-            <span class="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> Up to 10% off </span>
+            <span class="me-2 rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> Up to 10% off </span>
 
             <div class="flex items-center justify-end gap-1">
               <button type="button" data-tooltip-target="tooltip-quick-look-4" class="rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
@@ -403,7 +403,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 <div class="tooltip-arrow" data-popper-arrow=""></div>
               </div>
 
-              <button type="button" data-tooltip-target="tooltip-add-to-favorites-4" class="rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+              <button type="button" data-tooltip-target="tooltip-add-to-favorites" class="rounded-lg p-2 text-red-500 hover:bg-red-100 hover:text-red-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
                 <span class="sr-only"> Add to Favorites </span>
                 <svg class="h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6C6.5 1 1 8 5.8 13l6.2 7 6.2-7C23 8 17.5 1 12 6Z" />
@@ -464,7 +464,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <div class="mt-4 flex items-center justify-between gap-4">
             <p class="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">$499</p>
 
-            <button type="button" class="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+            <button type="button" class="inline-flex items-center rounded-lg bg-red-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-red-800 focus:outline-none focus:ring-4  focus:ring-red-300 dark:bg-red-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
               </svg>
@@ -483,7 +483,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
         <div class="pt-6">
           <div class="mb-4 flex items-center justify-between gap-4">
-            <span class="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> Up to 10% off </span>
+            <span class="me-2 rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> Up to 10% off </span>
 
             <div class="flex items-center justify-end gap-1">
               <button type="button" data-tooltip-target="tooltip-quick-look-5" class="rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
@@ -498,7 +498,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 <div class="tooltip-arrow" data-popper-arrow=""></div>
               </div>
 
-              <button type="button" data-tooltip-target="tooltip-add-to-favorites-5" class="rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+              <button type="button" data-tooltip-target="tooltip-add-to-favorites" class="rounded-lg p-2 text-red-500 hover:bg-red-100 hover:text-red-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
                 <span class="sr-only"> Add to Favorites </span>
                 <svg class="h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6C6.5 1 1 8 5.8 13l6.2 7 6.2-7C23 8 17.5 1 12 6Z" />
@@ -565,7 +565,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <div class="mt-4 flex items-center justify-between gap-4">
             <p class="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">$499</p>
 
-            <button type="button" class="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+            <button type="button" class="inline-flex items-center rounded-lg bg-red-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-red-800 focus:outline-none focus:ring-4  focus:ring-red-300 dark:bg-red-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
               </svg>
@@ -584,7 +584,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
         <div class="pt-6">
           <div class="mb-4 flex items-center justify-between gap-4">
-            <span class="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> Up to 5% off </span>
+            <span class="me-2 rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> Up to 5% off </span>
 
             <div class="flex items-center justify-end gap-1">
               <button type="button" data-tooltip-target="tooltip-quick-look-6" class="rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
@@ -599,7 +599,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 <div class="tooltip-arrow" data-popper-arrow=""></div>
               </div>
 
-              <button type="button" data-tooltip-target="tooltip-add-to-favorites-6" class="rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+              <button type="button" data-tooltip-target="tooltip-add-to-favorites" class="rounded-lg p-2 text-red-500 hover:bg-red-100 hover:text-red-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
                 <span class="sr-only"> Add to Favorites </span>
                 <svg class="h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6C6.5 1 1 8 5.8 13l6.2 7 6.2-7C23 8 17.5 1 12 6Z" />
@@ -660,7 +660,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <div class="mt-4 flex items-center justify-between gap-4">
             <p class="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">$2,599</p>
 
-            <button type="button" class="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+            <button type="button" class="inline-flex items-center rounded-lg bg-red-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-red-800 focus:outline-none focus:ring-4  focus:ring-red-300 dark:bg-red-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
               </svg>
@@ -679,7 +679,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
         <div class="pt-6">
           <div class="mb-4 flex items-center justify-between gap-4">
-            <span class="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> Up to 20% off </span>
+            <span class="me-2 rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> Up to 20% off </span>
 
             <div class="flex items-center justify-end gap-1">
               <button type="button" data-tooltip-target="tooltip-quick-look-7" class="rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
@@ -694,7 +694,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 <div class="tooltip-arrow" data-popper-arrow=""></div>
               </div>
 
-              <button type="button" data-tooltip-target="tooltip-add-to-favorites-7" class="rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+              <button type="button" data-tooltip-target="tooltip-add-to-favorites" class="rounded-lg p-2 text-red-500 hover:bg-red-100 hover:text-red-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
                 <span class="sr-only"> Add to Favorites </span>
                 <svg class="h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6C6.5 1 1 8 5.8 13l6.2 7 6.2-7C23 8 17.5 1 12 6Z" />
@@ -755,7 +755,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <div class="mt-4 flex items-center justify-between gap-4">
             <p class="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">$699</p>
 
-            <button type="button" class="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+            <button type="button" class="inline-flex items-center rounded-lg bg-red-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-red-800 focus:outline-none focus:ring-4  focus:ring-red-300 dark:bg-red-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
               </svg>
@@ -773,7 +773,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         </div>
         <div class="pt-6">
           <div class="mb-4 flex items-center justify-between gap-4">
-            <span class="me-2 rounded bg-primary-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> Up to 35% off </span>
+            <span class="me-2 rounded bg-green-100 px-2.5 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300"> Up to 35% off </span>
 
             <div class="flex items-center justify-end gap-1">
               <button type="button" data-tooltip-target="tooltip-quick-look-8" class="rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
@@ -788,7 +788,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
                 <div class="tooltip-arrow" data-popper-arrow=""></div>
               </div>
 
-              <button type="button" data-tooltip-target="tooltip-add-to-favorites-8" class="rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+              <button type="button" data-tooltip-target="tooltip-add-to-favorites" class="rounded-lg p-2 text-red-500 hover:bg-red-100 hover:text-red-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
                 <span class="sr-only"> Add to Favorites </span>
                 <svg class="h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6C6.5 1 1 8 5.8 13l6.2 7 6.2-7C23 8 17.5 1 12 6Z" />
@@ -849,7 +849,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
           <div class="mt-4 flex items-center justify-between gap-4">
             <p class="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">$899</p>
 
-            <button type="button" class="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+            <button type="button" class="inline-flex items-center rounded-lg bg-red-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-red-800 focus:outline-none focus:ring-4  focus:ring-red-300 dark:bg-red-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               <svg class="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
               </svg>
