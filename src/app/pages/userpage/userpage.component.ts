@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [
     CommonModule,
   ],
-  template: `<p>userpage works!</p>`,
+  templateUrl: './userpage.component.html',
   styleUrl: './userpage.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
