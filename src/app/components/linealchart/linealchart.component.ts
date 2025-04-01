@@ -44,8 +44,8 @@ export class LinealchartComponent implements OnInit {
         gradient: {
           opacityFrom: 0.55,
           opacityTo: 0,
-          shade: "#FF2401", // Cambia a rojo
-          gradientToColors: ["#FF2401"], // Cambia a rojo
+          shade: "#2563eb", // Azul
+          gradientToColors: ["#2563eb"], // Azul
         },
       },
       dataLabels: {
@@ -53,7 +53,7 @@ export class LinealchartComponent implements OnInit {
       },
       stroke: {
         width: 4,
-        colors: ["#FF2401"] // Cambia a rojo
+        colors: ["#2563eb"] // Azul
       },
       grid: {
         show: false,
@@ -67,8 +67,8 @@ export class LinealchartComponent implements OnInit {
       series: [
         {
           name: "New users",
-          data: [6500, 6418, 6456, 6526, 6356, 6456, 6600, 6500, 6700, 6500, 6418, 6456, 6526, 6356, 6456, 6600, 6500, 6700],
-          color: "#FF2401", // Cambia a rojo
+          data: [6500, 6418, 6456, 6526, 6356, 6456, 6600, 6500, 6700],
+          color: "#2563eb", // Azul
         },
       ],
       xaxis: {

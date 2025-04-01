@@ -30,26 +30,25 @@ export class BarchartComponent {
         },
       },
       fill: {
-        colors: ['#F44336', '#E91E63', '#9C27B0']
-
+        colors: ['#2563eb', '#1d4ed8', '#1e40af']
       },
       series: [{
         data: [{
           x: 'category A',
           y: 10,
-          fillColor: '#003049'
+          fillColor: '#2563eb'
         }, {
           x: 'category B',
           y: 18,
-          fillColor: '#d62828'
+          fillColor: '#1d4ed8'
         }, {
           x: 'category C',
           y: 13,
-          fillColor: '#780000'
+          fillColor: '#1e40af'
         },{
           x: 'category D',
           y: 6,
-          fillColor: '#fcbf49'
+          fillColor: '#3b82f6'
         },]
       }]
     }

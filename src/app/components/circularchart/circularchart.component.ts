@@ -47,7 +47,7 @@ export class CircularchartComponent implements OnInit {
         height: 300,
         width: '200'
       },
-      colors: ['#003049', '#c1121f', '#fdf0d5', '#e63946'],
+      colors: ['#2563eb', '#1d4ed8', '#1e40af', '#3b82f6'],
       plotOptions: {
         pie: {
           donut: {
