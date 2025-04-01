@@ -64,7 +64,7 @@ export class CircularchartComponent implements OnInit {
                 label: 'Unique visitors',
                 fontFamily: 'Inter, sans-serif',
                 color: '#2ec4b6',
-                
+
                 formatter: function (w) {
                   const sum = w.globals.seriesTotals.reduce((a: any, b: any) => a + b, 0);
                   return '$' + sum + 'k';
@@ -86,7 +86,7 @@ export class CircularchartComponent implements OnInit {
       },
       stroke: {
         colors: ['transparent'],
-        
+
       },
       grid: {
         padding: {

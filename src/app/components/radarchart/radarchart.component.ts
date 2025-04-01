@@ -32,7 +32,7 @@ export class RadarchartComponent {
           name: 'Series 1',
           data: [80, 50, 30, 40, 100, 20],
       }],
-      
+
       colors: ['#2563eb'],
       yaxis:{
         show: false
